@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./build/index.js",
-    "build": "tsc",
+    "start": "npm run start",
+    "build": "npm install && npm run build",
     "dev": "ts-node-dev ./src/index.ts",
     "test": "jest"
   },
